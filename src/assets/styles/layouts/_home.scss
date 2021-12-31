@@ -2,3 +2,10 @@
   box-sizing: border-box;
 }
 
+
+
+@layer components {
+  .home-back {
+   @apply  h-2/3 bg-top bg-cover bg-no-repeat bg-zaho-back;
+  }
+}

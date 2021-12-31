@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+@layer components {
+  .img-card {
+   @apply  w-full; 
+  };
+  .card {
+    @apply max-w-sm rounded overflow-hidden shadow-lg ; 
+   }
+}
+
+
